@@ -33,7 +33,7 @@ Use the specified scan type. The options are:
 | `connect`  | A less detailed scan using full TCP handshakes, though does not require root privileges. 
 | `device`   | Attempt to identify device MAC address and manufacturer where possible. Useful for listing devices on a LAN.
 
-The default is a SYN scan.
+The default is a SYN scan. mac os not support SYN, please use py version
 
 ### `-p [PORTS]` `--ports [PORTS]`
 
